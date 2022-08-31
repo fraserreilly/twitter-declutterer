@@ -34,8 +34,6 @@ function waitForElm(selector) {
     });
 }
 
-
-
 waitForElm('[data-testid="DMDrawer"]').then((elm) => {
     if (elm.style.display !== "none") {
         elm.style.display = "none";
@@ -47,7 +45,3 @@ waitForElm('[data-testid="sidebarColumn"]').then((elm) => {
         elm.style.display = "none";
     }
 });
-
-
-
-
